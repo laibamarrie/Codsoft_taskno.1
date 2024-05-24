@@ -382,10 +382,8 @@ h2 {
       #adb5bd 100%
     );
   }
-  .home {
-    row-gap: 2rem;
-  }
-  .home__img {
-    width: 200px;
+  
+  .menu-list {
+    display: none;
   }
 }
