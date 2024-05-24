@@ -371,7 +371,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   body {
     background: linear-gradient(
       to bottom,
@@ -381,5 +381,11 @@ h2 {
       #ced4da 75%,
       #adb5bd 100%
     );
+  }
+  .home {
+    row-gap: 2rem;
+  }
+  .home__img {
+    width: 200px;
   }
 }
